@@ -1,8 +1,9 @@
 
 
-let gameWidth = screen.width;
-let gameHeight = screen.height;
-
+//let gameWidth = screen.width;
+//let gameHeight = screen.height;
+let gameWidth = window.innerWidth;
+let gameHeight = window.innerHeight;
 
 var body = document.getElementsByTagName("body")[0];
 
